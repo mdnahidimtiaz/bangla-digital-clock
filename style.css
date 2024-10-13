@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'SolaimanLipi', sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 150px; 
+    font-size: 18px;
+    background-color:greenyellow;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+    
+    animation: changeColor 5s infinite; 
+}
+
+
+#bangla-clock {
+    font-size: 43px;
+    color: white;
+    text-align: center;
+}
+
+@keyframes changeColor {
+    0%   { background-color: green; }  
+    20%  { background-color: red; }  
+    40%  { background-color: blue; }  
+    60%  { background-color: yellow; }  
+    80%  { background-color: brown; }  
+    100% { background-color: lawngreen; }
+}
